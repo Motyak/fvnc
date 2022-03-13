@@ -1,0 +1,7 @@
+We'll need to find a way to auto-bind the perltests 
+script we use with the function to test in the target language.
+
+We'll use soukets for the 'expose as a service' functionality.
+
+We'll do a script to write an HTML documentation based on 
+the 'tests' files.
