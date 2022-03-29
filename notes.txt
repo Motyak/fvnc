@@ -1,5 +1,4 @@
-We'll need to find a way to auto-bind the perltests 
-script we use with the function to test in the target language.
+We'll provide both the default program and test program for each individual languages.
 
 We'll use soukets for the 'expose as a service' functionality.
 
