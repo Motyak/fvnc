@@ -3,8 +3,6 @@
 user@host:~/project$ fvnc init
 Select a programming language (c/cpp/js/pl/py/sh) : 
 > cpp
-Select a C++ compiler (g++/clang) : 
-> g++
 This folder is now a C++ fvnc project!
 user@host:~/project$ ls -AR
 .:
@@ -21,7 +19,11 @@ activate.sh  soukets  test.pl
 ## Project structure
 - c.cpp: the code that will contain the program to run, default is an auto-generated echo program.
 
-- .conf: project configuration file that contains the code to compile/run, the compiler/interpreter to use, ...
+- .conf: project configuration file that contains the code to compile/run, the compiler/interpreter to use, .. :
+```
+language="cpp"
+run="bash .replit.sh"
+```
 
 - docs/: folder that will contain the html documentation for the program
 
